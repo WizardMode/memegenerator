@@ -1,6 +1,15 @@
+import logo from "../images/Troll-Face.png"
+
 function Header() {
     return (
-        <h1>Header component</h1>
+        <header className="header">
+            <img 
+                src={logo} 
+                className="header-image"
+            />
+            <h2 className="header-title">Meme Generator</h2>
+            <h4 className="header-project">React Course - Project 3</h4>
+        </header>
     )
 }
 
